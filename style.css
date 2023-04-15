@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    margin-top: 30px;
+}
+
+.container>*{
+    flex: 1 100%;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+#btn{
+    background-color: white;
+    color: black;
+
+}
+
+.inputs{
+    color: white;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+#btn{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.success{
+    color: green;
+}
+
+.failure{
+    color: red;
+}
+
+.data{
+    display: flex;
+    gap: 2rem;
+}
+
+p{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 20px;
+    /* max-width: 400px; */
+    min-width: 300px;
+    padding: 5px;
+}
+
+#delete{
+    height: 25px;
+    padding: 5px;
+
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.employees{
+    display: none;
+}
+
+#task{
+   margin: 20px;
+}
